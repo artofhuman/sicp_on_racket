@@ -2,7 +2,6 @@ version: '2'
 
 services:
   app:
-    image: 'jackfirth/racket'
-    working_dir: '/app'
+    build: '.'
     volumes:
       - '.:/app'
