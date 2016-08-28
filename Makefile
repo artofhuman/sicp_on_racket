@@ -1,6 +1,6 @@
 default: test
 
 test:
-	raco test */*/*.rkt
+	raco test */*.rkt
 
 .PHONY: test
